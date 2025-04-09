@@ -1,0 +1,69 @@
+{
+    "symptoms_progression": [
+        {
+            "discription": "The patient started experiencing a mild fever 3 days ago, followed by a persistent cough and difficulty breathing."
+        }
+    ],
+
+    "patient_symptoms": [
+        {
+            "name": "Fever (started 3 days ago)"
+        },
+        {
+            "name": "Cough"
+        },
+        {
+            "name": "Difficulty breathing"
+        }
+    ],
+
+    "disease": [
+        {
+            "name": "Influenza (Flu)",
+            "percent": "30%"
+        },
+        {
+            "name": "COVID-19",
+            "percent": "25%"
+        },
+        {
+            "name": "Pneumonia",
+            "percent": "20%"
+        },
+        {
+            "name": "Bronchitis",
+            "percent": "15%"
+        },
+        {
+            "name": "Asthma exacerbation (with infection)",
+            "percent": "10%"
+        }
+    ],
+
+    "questions": [
+        {
+            "id": 1,
+            "question": "Question 1",
+            "discription": "Do you have any other symptoms, such as body aches, fatigue, loss of taste or smell, or chest pain?",
+            "answer": "No, I do not have those symptoms."
+        },
+        {
+            "id": 2,
+            "question": "Question 2",
+            "description": "Have you had any recent exposure to someone who tested positive for COVID-19 or was feeling unwell with similar symptoms?",
+            "answer": "No, I have not"
+        },
+        {
+            "id": 3,
+            "question": "Question 3",
+            "description": "Do you experience any pain or tightness in your chest, or is the difficulty breathing more of a feeling of shortness of breath without chest discomfort?",
+            "answer": "Sometime i have shortness of breath without chest discomfort"
+        }
+      ],
+    
+    "created_at": "2025-01-07T12:34:56.789123",
+    "updated_at": "2025-01-07T12:34:56.789123",
+    "id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+}
+
+// TODO: Try to make the chatbot do not ask the same question again and don't ask the question that is reduce the disease probability

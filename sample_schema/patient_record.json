@@ -1,0 +1,90 @@
+{
+    "patient_information": {
+        "full_name": "NGUYEN PHUNG BAO HUY",
+        "date_of_birth": "2001-11-01",
+        "age": 23,
+        "gender": "Male",
+        "occupation": "Software Engineer"
+    },
+
+    "past_diseases_history": [
+        {
+            "name": "Hypertension"
+        },
+        {
+            "name": "Seasonal Allergies"
+        }
+    ],
+
+    "current_medications": [
+        {
+            "name": "Lisinopril"
+        },
+        {
+            "name": "Cetirizine"
+        }
+    ],
+
+    "allergies": [
+        {
+            "name": "Penicillin"
+        }
+    ],
+
+    "family_history": [
+        {
+            "family": "Father",
+            "diseases": [
+                { 
+                    "name": "Hypertension"
+                },
+                {
+                    "name": "Diabetes"
+                }
+            ],
+            "notes": ""
+        },
+        {
+            "family": "Mother",
+            "diseases": [
+                { 
+                    "name": "Asthma"
+                }
+            ],
+            "notes": ""
+        }
+    ],
+
+    "social_information": [
+        {
+            "alcohol_consumption": {
+                "drinking": false, 
+                "frequency": "",
+                "duration": ""
+            }
+        },
+        {
+            "smoking_habits": {
+                "smoke": false,
+                "frequency": "",
+                "duration": ""
+            }
+        },
+        {
+            "living_situation": "Lives alone"
+        },
+        {
+            "daily_activities": "Can perform independently"
+        },
+        {
+            "recent_travel": "Has travel abroad"
+        },
+        {
+            "more_description": "Patient follows a sedentary lifestyle due to work but occasionally engages in jogging."
+        }
+    ],
+    
+    "created_at": "2025-01-07T12:34:56.789123",
+    "id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6"
+
+}
